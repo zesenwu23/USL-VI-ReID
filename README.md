@@ -41,6 +41,8 @@ main_worker_stage1(args,log_s1_name) # Stage 1
 }
 ```
 
+Our trained models can be downloaded [here](https://drive.google.com/drive/folders/1NIpM5uv9_DUbCafwy7Z28yXPnMXxNtss?usp=sharing).
+
 # Contact
 zesenwu@whu.edu.cn
 
