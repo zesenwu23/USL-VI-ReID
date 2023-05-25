@@ -1,7 +1,7 @@
 # Unsupervised Visible-Infrared Person Re-Identification via Progressive Graph Matching and Alternate Learning
 
 
-## Dataset Preparing
+## Dataset Preprocessing
 Convert the dataset format (like Market1501).
 ```shell
 python prepare_sysu.py   # for SYSU-MM01
