@@ -1,5 +1,5 @@
 ==========
-Args:Namespace(arch='agw', batch_size=256, data_dir='/data0/ReIDData/RegDB', dataset='regdb_rgb', dropout=0, epochs=30, eps=0.6, eps_gap=0.02, eval_step=1, features=0, height=288, iters=100, k1=30, k2=6, logs_dir='/data1/wzs/adca-regdb/regdb/origin-agw-momentum02-benchmarkFalse-cj05-step10epoch30/regdb_s1/5', lr=0.00035, momentum=0.2, no_cam=False, num_instances=16, pooling_type='gem', print_freq=10, seed=1, step_size=10, temp=0.05, trial=5, use_hard=False, weight_decay=0.0005, width=144, workers=8)
+Args:Namespace(arch='agw', batch_size=256, data_dir='/data0/ReIDData/RegDB', dataset='regdb_rgb', dropout=0, epochs=30, eps=0.6, eps_gap=0.02, eval_step=1, features=0, height=288, iters=100, k1=30, k2=6, logs_dir='', lr=0.00035, momentum=0.2, no_cam=False, num_instances=16, pooling_type='gem', print_freq=10, seed=1, step_size=10, temp=0.05, trial=5, use_hard=False, weight_decay=0.0005, width=144, workers=8)
 ==========
 ==> Load unlabeled dataset
 => regdb_ir loaded 5
@@ -782,7 +782,7 @@ Total running time:  1:23:34.636095
 
 
 ==========
-Args:Namespace(arch='agw', batch_size=256, data_dir='/data0/ReIDData/RegDB', dataset='regdb_rgb', dropout=0, epochs=30, eps=0.6, eps_gap=0.02, eval_step=1, features=0, height=288, iters=100, k1=30, k2=6, logs_dir='/data1/wzs/adca-regdb/regdb/origin-agw-momentum02-benchmarkFalse-cj05-step10epoch30', lr=0.00035, momentum=0.2, no_cam=False, num_instances=16, pooling_type='gem', print_freq=10, seed=1, step_size=10, temp=0.05, trial=5, use_hard=False, weight_decay=0.0005, width=144, workers=8)
+Args:Namespace(arch='agw', batch_size=256, data_dir='/data0/ReIDData/RegDB', dataset='regdb_rgb', dropout=0, epochs=30, eps=0.6, eps_gap=0.02, eval_step=1, features=0, height=288, iters=100, k1=30, k2=6, logs_dir='', lr=0.00035, momentum=0.2, no_cam=False, num_instances=16, pooling_type='gem', print_freq=10, seed=1, step_size=10, temp=0.05, trial=5, use_hard=False, weight_decay=0.0005, width=144, workers=8)
 ==========
 ==> Load unlabeled dataset
 => regdb_ir loaded 5
@@ -803,7 +803,7 @@ Dataset statistics:
   query    |   206 |      824 |         1
   gallery  |   206 |     2060 |         1
   ----------------------------------------
-=> Loaded checkpoint '/data1/wzs/adca-regdb/regdb/origin-agw-momentum02-benchmarkFalse-cj05-step10epoch30/regdb_s1/5/model_best.pth.tar'
+=> Loaded checkpoint 'model_best.pth.tar'
 IR Clustering criterion: eps: 0.300
 RGB Clustering criterion: eps: 0.300
 ==> Create pseudo labels for unlabeled RGB data
