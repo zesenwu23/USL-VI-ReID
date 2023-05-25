@@ -1,5 +1,5 @@
 ==========
-Args:Namespace(arch='agw', batch_size=256, data_dir='/data0/data_wzs/SYSU-MM01-Original/SYSU-MM01', dataset='sysu_all', dropout=0, epochs=70, eps=0.6, eps_gap=0.02, eval_step=1, features=0, height=288, iters=200, k1=30, k2=6, logs_dir='/data1/wzs/adca/origin-agw-momentum020-ColorJitter05-benchmarkFalse-repeat', lr=0.00035, momentum=0.2, no_cam=False, num_instances=16, pooling_type='gem', print_freq=10, seed=1, step_size=20, temp=0.05, test_batch=64, use_hard=False, weight_decay=0.0005, width=144, workers=8)
+Args:Namespace(arch='agw', batch_size=256, data_dir='/data0/data_wzs/SYSU-MM01-Original/SYSU-MM01', dataset='sysu_all', dropout=0, epochs=70, eps=0.6, eps_gap=0.02, eval_step=1, features=0, height=288, iters=200, k1=30, k2=6, logs_dir=='', lr=0.00035, momentum=0.2, no_cam=False, num_instances=16, pooling_type='gem', print_freq=10, seed=1, step_size=20, temp=0.05, test_batch=64, use_hard=False, weight_decay=0.0005, width=144, workers=8)
 ==========
 ==> Load unlabeled dataset
 => sysu_ir loaded
