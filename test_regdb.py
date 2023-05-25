@@ -309,7 +309,7 @@ def eval_regdb(distmat, q_pids, g_pids, max_rank = 20):
     return all_cmc, mAP, mINP
 
 def main_worker(args):
-    log_name='regdb_s2_pgm025'#model path
+    log_name='regdb_s2'#model path
     model = create_model(args)
     for trial in range(1,11):#(1,11):
         args.test_batch=64
