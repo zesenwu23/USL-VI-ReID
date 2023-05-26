@@ -9,7 +9,7 @@ python prepare_regdb.py  # for RegDB
 ```
 You need to change the file path in the `prepare_sysu(regdb).py`.
 
-Note: a pre-processed dataset can be downloaded [here](https://pan.baidu.com/s/1Ovc8SRbWHkMMit26DfEaiA). Password: `ReID`. 
+Note: a pre-processed dataset can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1Ovc8SRbWHkMMit26DfEaiA) (Password: ReID) or [Google Drive](https://drive.google.com/drive/folders/1TJG3TRgqi_DUMItJeFU4285IaB10-cXl?usp=sharing).
 
 ## Training
 ```shell
