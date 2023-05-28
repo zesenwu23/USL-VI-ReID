@@ -16,7 +16,7 @@ Note: a pre-processed dataset can be downloaded from [Baidu Netdisk](https://pan
 ./train_sysu.sh   # for SYSU-MM01
 ./train_regdb.sh  # for RegDB
 ```
-Two training stages are inclued and you need to specify the training stage by commenting another stage's `main_worker` like this:
+Two training stages are included and you need to specify the training stage by commenting another stage's `main_worker` like this:
 ```python
 main_worker_stage1(args,log_s1_name) # Stage 1
 # main_worker_stage2(args,log_s1_name,log_s2_name) # Stage 2
