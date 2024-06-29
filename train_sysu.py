@@ -432,6 +432,7 @@ def main_worker_stage1(args,log_s1_name):
         T.Pad(10),
         T.RandomCrop((288, 144)),
         T.RandomHorizontalFlip(),
+        T.ColorJitter(brightness=0.5,contrast=0.5,saturation=0.5,hue=0.5),
         T.ToTensor(),
         normalizer,
         ChannelRandomErasing(probability = 0.5),
