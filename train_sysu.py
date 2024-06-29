@@ -371,7 +371,7 @@ def main():
         np.random.seed(args.seed)
         torch.manual_seed(args.seed)
         cudnn.deterministic = True
-        cudnn.benchmark = False
+        cudnn.benchmark = True
     log_s1_name = 'sysu_s1'
     log_s2_name = 'sysu_s2'
     main_worker_stage1(args,log_s1_name) # Stage 1
@@ -790,9 +790,9 @@ def main_worker_stage2(args,log_s1_name,log_s2_name):
         cluster_features_rgb = generate_cluster_features(pseudo_labels_rgb, features_rgb)
         # Create hybrid memory
         memory_ir = ClusterMemory(model.module.num_features, num_cluster_ir, temp=args.temp,
-                               momentum=args.momentum, use_hard=args.use_hard).cuda()
+                               momentum=args.momentum, use_hard=True).cuda()
         memory_rgb = ClusterMemory(model.module.num_features, num_cluster_rgb, temp=args.temp,
-                               momentum=args.momentum, use_hard=args.use_hard).cuda()
+                               momentum=args.momentum, use_hard=True).cuda()
         memory_ir.features = F.normalize(cluster_features_ir, dim=1).cuda()
         memory_rgb.features = F.normalize(cluster_features_rgb, dim=1).cuda()
         trainer.memory_ir = memory_ir
