@@ -21,7 +21,7 @@ Two training stages are included and you need to specify the training stage by c
 main_worker_stage1(args,log_s1_name) # Stage 1
 # main_worker_stage2(args,log_s1_name,log_s2_name) # Stage 2
 ```
-
+Update: We optimized the code to make the training more stable. In the 2nd stage of training, we recommend setting `use_hard` to `True`, referring to [Cluster contrast for unsupervised person re-identification](https://arxiv.org/pdf/2103.11568v2). 
 
 ## Test
 ```shell
